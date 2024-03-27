@@ -4,7 +4,6 @@
         cycle
         show-arrows="hover"
         delimiter-icon="mdi-square"
-        height="850"
     >
       <v-carousel-item src="@/assets/slide1.png" cover></v-carousel-item>
       <v-carousel-item src="@/assets/slide2.png" cover></v-carousel-item>
