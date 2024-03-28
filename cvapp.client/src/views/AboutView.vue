@@ -1,9 +1,7 @@
 <template>
   <v-container class="fill-height">
-    <v-responsive
-        class="align-centerfill-height mx-auto"
-        max-width="900">
-      <v-img class="mb-12" src="@/assets/slide1.png"/>
+    <v-responsive class="align-centerfill-height mx-auto" max-width="900">
+      <v-img class="mb-12" src="/assets/back.png"/>
       <p>
         CVApp Platform is a platform offering computer vision technologies that enable your applications to read and understand the world better.
         CVApp allows you to easily add leading, image analysis recognition technologies into your applications, with simple and powerful APIs.
@@ -43,11 +41,10 @@
     </v-responsive>
   </v-container>
 </template>
+
 <script setup lang="ts">
 </script>
 
-
-<style scoped lang="scss"></style>
 <style lang="scss">
 h2 {
   padding: 10px 0 20px 0

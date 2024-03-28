@@ -4,7 +4,8 @@
     <v-main>
       <router-view/>
     </v-main>
-    <Footer/>
+    <ContactUsSection />
+    <AppFooter/>
   </v-app>
 </template>
 
@@ -12,13 +13,13 @@
 
 import {defineComponent} from "vue";
 import {mapState, mapActions, mapMutations, mapGetters} from "vuex";
-import AppBar from "@/components/AppBar.vue";
+import AppBar from "@/components/app/AppBar.vue";
 import router from "@/router";
-import Footer from "@/components/Footer.vue"
+import AppFooter from "@/components/app/AppFooter.vue"
 
 export default defineComponent({
   name: "App",
-  components: {AppBar, Footer},
+  components: {AppBar, AppFooter},
   setup() {
     return {};
   },
@@ -37,7 +38,7 @@ export default defineComponent({
   created() {
   },
   mounted() {
-    router.push("/");
+    //router.push("/");
   },
   unmounted() {
   },

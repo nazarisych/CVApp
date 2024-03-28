@@ -1,6 +1,6 @@
 import {createRouter, createWebHistory, RouteRecordRaw} from "vue-router";
 import HomeView from "@/views/HomeView.vue";
-import About from "@/views/AboutView.vue";
+import AboutView from "@/views/AboutView.vue";
 
 const routes: Array<RouteRecordRaw> = [
     {
@@ -10,8 +10,8 @@ const routes: Array<RouteRecordRaw> = [
     },
     {
         path: "/about-us",
-        name: "About",
-        component: About
+        name: "AboutView",
+        component: AboutView
     }
 ];
 
@@ -21,7 +21,6 @@ const router = createRouter({
 });
 
 router.beforeEach((routeTo, routeFrom, next) => {
-
     next();
 });
 

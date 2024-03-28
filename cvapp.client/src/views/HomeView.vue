@@ -1,15 +1,18 @@
 <template>
-  <div class="home">
-    <v-carousel
-        cycle
-        show-arrows="hover"
-        delimiter-icon="mdi-square"
-    >
-      <v-carousel-item src="@/assets/slide1.png" cover></v-carousel-item>
-      <v-carousel-item src="@/assets/slide2.png" cover></v-carousel-item>
-      <v-carousel-item src="@/assets/slide3.png" cover></v-carousel-item>
-    </v-carousel>
-  </div>
+
+  <LandingSection />
+
+  <WhatWeDoSection />
+
+  <DiscoverHelp />
+
+  <CustomizeSection />
+
+  <FunFactsSection />
+
+  <AmazingFeaturesSection />
+
+  <FAQSection />
 </template>
 
 <script lang="ts">
