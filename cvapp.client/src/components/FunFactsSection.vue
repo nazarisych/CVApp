@@ -4,7 +4,7 @@
     color="accent"
   >
     <div class="text-h3 font-weight-bold mb-5 mb-12">
-      Fun Facts About Our Agency
+      Facts About Our Agency
     </div>
 
     <v-container>
@@ -35,23 +35,23 @@
   const agency = [
     {
       icon: '/assets/agency/completed.png',
-      title: '1050+',
-      description: 'Projects Completed',
+      title: 'Accurate',
+      description: 'Industry-leading accuracy, in real-world applications',
     },
     {
       icon: '/assets/agency/heart.png',
-      title: '217k',
-      description: 'Happy Clients',
+      title: 'Fast',
+      description: 'Fast per-frame processing means it runs in real time on any device.'
     },
     {
       icon: '/assets/agency/awards.png',
-      title: '1210',
-      description: 'Design Awards',
+      title: 'Efficient',
+      description: 'Read the world without waiting, online and offline',
     },
     {
       icon: '/assets/agency/anchor.png',
-      title: '2137',
-      description: 'Line Of Codes',
+      title: 'Reliable',
+      description: 'Built for high availability, CVAPP is always on',
     },
   ]
 </script>

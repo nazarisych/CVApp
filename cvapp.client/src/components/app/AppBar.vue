@@ -11,28 +11,19 @@
             <div class="dropdown-content">
               <v-container>
                 <v-row>
-                  <v-col cols="4">
-                    <ul class="sub-col">
-                      <a href="#">LPR1</a>
-                      <li class="sub-col-item"><a>German</a></li>
-                      <li class="sub-col-item"><a>Ukraine</a></li>
-                      <li class="sub-col-item"><a>China</a></li>
-                    </ul>
-                  </v-col>
-                  <v-col cols="4">
+                  <v-col cols="6">
                     <ul class="sub-col">
                       <a href="#">LPR</a>
-                      <li class="sub-col-item"><a>ddd</a></li>
-                      <li class="sub-col-item"><a>ddd</a></li>
-                      <li class="sub-col-item"><a>ddd</a></li>
+                      <li class="sub-col-item"><a href="/product/license-plate-recognition?country=german">German</a></li>
+                      <li class="sub-col-item"><a href="/product/license-plate-recognition?country=german">Ukraine</a></li>
+                      <li class="sub-col-item"><a href="/product/license-plate-recognition?country=german">China</a></li>
                     </ul>
                   </v-col>
-                  <v-col cols="4">
+                  <v-col cols="6">
                     <ul class="sub-col">
-                      <a href="#">LPR</a>
-                      <li><a>ddd</a></li>
-                      <li><a>ddd</a></li>
-                      <li><a>ddd</a></li>
+                      <a href="#">Facial Recognition</a>
+                      <li class="sub-col-item"><a>Face Detection</a></li>
+                      <li class="sub-col-item"><a>Face Landmark</a></li>
                     </ul>
                   </v-col>
                 </v-row>
@@ -107,17 +98,20 @@ ul.sub-col-item a:hover {background-color: #f1f1f1;}
 }
 
 ul.sub-col{
-  min-width: 150px;
+  min-width: 180px;
 }
 
 ul.sub-col a{
-  color: #333;
+  color: #999;
   font-size: 16px;
   cursor: default;
+  font-weight: bold;
 }
 
 li.sub-col-item a{
   font-size: 14px;
+  color: #000;
+  font-weight: normal;
 }
 
 ul.sub-col li a:hover{

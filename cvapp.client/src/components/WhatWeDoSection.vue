@@ -40,21 +40,21 @@
   const whatWeDo = [
     {
       icon: './assets/what/analytics.png',
-      title: 'Google Analitycs',
+      title: 'Web API',
       description:
-        'Curabitur quam etsum lacus net netsum nulat iaculis etsimun vitae etsum nisle varius netsum',
+        'Web API enables your application to flexibly use every latest recognition technologies from CVAPP.',
     },
     {
       icon: './assets/what/awareness.png',
-      title: 'Brand Awareness',
+      title: 'Mobile SDK',
       description:
-        'Curabitur quam etsum lacus net netsum nulat iaculis etsimun vitae etsum nisle varius netsum',
+        'Use CVAPP capabilities on mobile devices, offline. Process video streams easily.',
     },
     {
       icon: './assets/what/design.png',
-      title: 'Graphic Design',
+      title: 'Windows and Linux SDK',
       description:
-        'Curabitur quam etsum lacus net netsum nulat iaculis etsimun vitae etsum nisle varius netsum',
+        'Use CVAPP capabilities on any OS, offline. Deployable on any device including Raspberry Pi, Arduino, Jetson Nano, etc.',
     },
   ]
 </script>

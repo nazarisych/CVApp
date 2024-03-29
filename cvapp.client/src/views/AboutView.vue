@@ -45,7 +45,7 @@
 <script setup lang="ts">
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 h2 {
   padding: 10px 0 20px 0
 }
